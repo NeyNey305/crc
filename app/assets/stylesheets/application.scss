@@ -45,18 +45,31 @@
 
 ////////////////////////////// CRC HOME PAGE ///////////////////////
 
-.crc-title-home {
-  font-family: "Cinzel", serif;
-}
-
 .jumbotron {
-  height: 500px;
-  background-image: url("villaviento_blue.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.2;
+  height: 600px;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: 'Cinzel', serif;
 }
 
+#crc-info {
+  background-color: #09f2a8;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.7em;
+  font-family: 'Open Sans', sans-serif;
+
+  // font-family: 'Cinzel', serif;
+  font-size: 20px;
+  // font-family: 'Crimson Text', serif;
+
+}
+
+#jumbo-crc {
+  text-align: center;
+}
 //////////////////////////// HOME PAGE CAROUSEL ///////////////////////////
 
 /*
@@ -111,7 +124,7 @@ Image credits: unsplash.com
     font-weight: bold;
     margin: 0;
     padding: 0;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -139,8 +152,9 @@ Image credits: unsplash.com
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: #080d15;
-    opacity: .7;
+    // background-color: #79f7cd;
+    background: rgba(222, 221, 221, 0.2)
+    // opacity: 0.7;
 }
 
 /********************************/
@@ -169,13 +183,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url('villaviento_blue.jpg');
+  background-image: url('group_doctor.jpg');
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url('villaviento_aerial.png');
+  background-image: url('female_nurse.jpg');
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url('villaviento_gazebo.jpg');
+  background-image: url('blonde_doctor.jpg');
 }
 
 /********************************/
@@ -192,7 +206,7 @@ Image credits: unsplash.com
 nav {
   height: 80px;
   width: 100%;
-  background: #58ddc1;
+  background: white;
   font-size: 11pt;
   font-family: 'Cinzel', serif;
 
@@ -229,7 +243,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   line-height: 80px;
-  color: white;
+  color: black;
   // text-shadow: 1px 1px 0px #283744;
 }
 
@@ -244,7 +258,8 @@ nav li:last-child a {
 }
 
 nav a:hover, nav a:active {
-  background-color: white;
+  background-color: #53f4be;
+  opacity: 0.2;
   color: black;
   text-decoration: none;
 }
@@ -313,4 +328,59 @@ nav a#pull {
   nav li a {
     border-bottom: 1px solid #576979;
   }
+}
+
+////////////////////////////// FOOTER /////////////////////////////////
+
+footer {
+  height: 450px;
+  width: 100%;
+  background-color: #202020;
+  color: white;
+  margin: 0;
+}
+
+#footer-info {
+  padding-left: 5em;
+  padding-top: 3em;
+  // padding-bottom: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  font-size: 3em;
+  margin-left: -35px;
+  padding-top: 0.2em;
+  // color: #09f2a8;
+  // padding-top: 1.5em;
+}
+
+.social-padding {
+  padding-right: 0.2em;
+  color: #09f2a8;
+}
+
+.contact-info {
+  list-style: none;
+  margin-left: -35px;
+  padding-top: 1.5em;
+  line-height: 1.8em;
+  color: #b5b5b5;
+}
+
+.quick-links {
+  list-style: none;
+  line-height: 2.5em;
+  margin-left: -35px;
+  padding-top: 1.5em;
+  color: #b5b5b5;
+
+}
+
+.quick-links:hover {
+  
 }
