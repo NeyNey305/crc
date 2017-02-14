@@ -59,7 +59,7 @@
   color: white;
   font-weight: bold;
   padding-top: 0.7em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cinzel', serif;
 
   // font-family: 'Cinzel', serif;
   font-size: 20px;
@@ -77,7 +77,7 @@
 }
 
 #crc-tech-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cinzel', serif;
   text-align: center;
   font-weight: bold;
   padding-top: 1em;
@@ -366,6 +366,16 @@ nav a#pull {
 .dropdown {
 
 }
+
+/////////////////////////// CONTACT DIV /////////////////////////////
+
+#contact-div {
+  text-align: center;
+  background-color: #A3BA98;
+  height: 70px;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
 ////////////////////////////// FOOTER /////////////////////////////////
 
 footer {
@@ -380,7 +390,7 @@ footer {
   padding-left: 5em;
   padding-top: 3em;
   // padding-bottom: 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans' sans-serif;
   font-size: 14px;
 }
 
@@ -454,15 +464,30 @@ footer {
   padding: 1.7em;
   font-family: 'Open Sans', sans-serif;
   line-height: 2em;
-  text-align: justify;
+  // text-align: justify;
+  padding-right: 3em;
 }
 
 #about-image {
-  background-image: url("villaviento_blue.jpg");
+  background-image: url("placeholder.png");
   height: 530px;
   border-radius: 5px;
   padding: 1.7em;
+  padding-left: 3em;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+#about-caption {
+  padding-top: 2em;
+  padding-left: 2em;
+  // padding-right: 2em;
+  font-family: 'Cinzel', serif;
+  // line-height: 3.5em;
+}
+
+#about-more {
+  height: 400px;
+  background-color: #e0e2e2;
 }

@@ -39,11 +39,20 @@
 
         <li><%= link_to "Resources", resources_index_path %></li>
         <li><%= link_to "FAQ", faq_index_path %></li>
-        <li><%= link_to "Contact Us", contact_index_path %></li>
+        <li><%= link_to "Contact Us", contacts_path %></li>
       </ul>
         <a href="#" id="pull"><i class="fa fa-bars" aria-hidden="true"></i></a>
     </nav>
 
+    <!-- CONTACT DIV ---------------------------------------------------->
+
+    <div class="container-fluid">
+      <div class="row" id="contact-div">
+        <div class="col-md-12">
+          <h3>Call us to schedule your consultation today: (888) 876-1234</h3>
+        </div>
+      </div>
+    </div>
 
     <%= yield %>
 
@@ -70,7 +79,7 @@
               <li><%= link_to "Treatments", treatment_index_path, id: "quick-link"%></li>
               <li><%= link_to "Resources", resources_index_path, id: "quick-link" %></li>
               <li><%= link_to "FAQ", faq_index_path, id: "quick-link" %></li>
-              <li><%= link_to "Contact Us", contact_index_path, id: "quick-link" %></li>
+              <li><%= link_to "Contact Us", contacts_path, id: "quick-link" %></li>
             </ul>
           </div>
 

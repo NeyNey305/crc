@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :contacts
+
   get 'treatment/index'
 
   get 'resources/index'
@@ -7,7 +9,6 @@ Rails.application.routes.draw do
 
   get 'splash/index'
   get 'about/index'
-  get 'contact/index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
