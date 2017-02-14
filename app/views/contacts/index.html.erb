@@ -1,35 +1,34 @@
-<p id="notice"><%= notice %></p>
+<div class="jumbotron" id="contact-jumbo">
+  <div class="container-fluid">
 
-<h1>Contacts</h1>
+  </div>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Email</th>
-      <th>Phone number</th>
-      <th>Message</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @contacts.each do |contact| %>
-      <tr>
-        <td><%= contact.first_name %></td>
-        <td><%= contact.last_name %></td>
-        <td><%= contact.email %></td>
-        <td><%= contact.phone_number %></td>
-        <td><%= contact.message %></td>
-        <td><%= link_to 'Show', contact %></td>
-        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="container-fluid">
+  <div class="row" id="contact-header">
+    <h1>Caribbean Regenerative Center</h1>
+    <h3>We value your questions and concerns and are available around the clock for your assistance.</h3>
+    <hr class="contact-hr">
+    <h4>Please submit your information and a representative will reach out to you within 24-48 hours.</h4>
+  </div>
+</div>
 
-<br>
+<div class="container-fluid" id="contact-form">
+  <div class="row">
+    <div class="col-md-6" id="contact-form-padding">
+      <%= render 'form', contact: @contact %>
+    </div>
 
-<%= link_to 'New Contact', new_contact_path %>
+    <div class="col-md-6" id="contact-crc">
+      <h4>Caribbean Regenerative Center</h4>
+      <p>Telephone: (888) 876-1234</p>
+      <p>Ocho Rios, Jamaica</p>
+      <p>info@crc.co</p>
+      <%= image_tag 'google_map_image.png', id: 'google-image' %>
+      <p>You can follow us on social media!</p>
+    </div>
+  </div>
+</div>
+
+<!-- <%= link_to 'New Contact', new_contact_path %> -->

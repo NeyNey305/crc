@@ -491,3 +491,55 @@ footer {
   height: 400px;
   background-color: #e0e2e2;
 }
+
+
+///////////////////////// CONTACT FORM PAGE /////////////////////////
+
+#google-image {
+  height: 200px;
+  width: auto;
+}
+
+#contact-form {
+  padding-bottom: 4em;
+  padding-top: 4em;
+  padding-left: 4em;
+
+}
+
+#contact-form-padding {
+  padding-right: 4em;
+}
+
+#contact-crc {
+  // padding-left: 4em;
+  padding-right: 4em;
+  // text-align: center;
+}
+
+#contact-jumbo {
+  background-image: url('placeholder.png');
+  height: 450px;
+}
+
+#contact-header {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.contact-hr {
+  padding-top: 3em;
+  // padding-bottom: 2em;
+}
+
+#contact-inputs {
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+
+
+.first-last-name {
+  display: inline-flex;
+}
