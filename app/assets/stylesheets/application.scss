@@ -148,8 +148,10 @@ Image credits: unsplash.com
 }
 .hero h1 {
     font-size: 6em;
-    font-family: 'Cinzel', serif;
-    font-weight: bold;
+    // font-family: 'Open Sans' sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+    // font-weight: bold;
     margin: 0;
     padding: 0;
     opacity: 1 !important;
@@ -211,13 +213,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url('group_doctor.jpg');
+  background-image: url('placeholder.png');
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url('leaves.png');
+  background-image: url('placeholder.png');
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url('blonde_doctor.jpg');
+  background-image: url('placeholder.png');
 }
 
 /********************************/
@@ -451,7 +453,7 @@ footer {
 
 
 #about-jumbotron {
-  background-image: url("hideaway.jpg");
+  background-image: url("placeholder.png");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -514,7 +516,9 @@ footer {
 #contact-crc {
   // padding-left: 4em;
   padding-right: 4em;
+  padding-top: 2em;
   // text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #contact-jumbo {
@@ -525,6 +529,17 @@ footer {
 #contact-header {
   text-align: center;
   padding-top: 3em;
+  font-family: 'Cinzel', serif;
+}
+
+#contact-value {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #A3BA98;
+}
+
+#contact-rep {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-hr {
@@ -539,7 +554,11 @@ footer {
 }
 
 
-
 .first-last-name {
   display: inline-flex;
+}
+
+#contact_message {
+  height: 7em;
+  // margin: 0;
 }
